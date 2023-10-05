@@ -20,7 +20,6 @@ export const ResumeButton = ({ className }) => {
             <Button className={className} onClick={handleShow}>
                 Mon Compte
             </Button>
-
             <Modal size="lg" show={show} onHide={handleClose} centered className="modern-modal">
                 <Modal.Header closeButton className='close-button'>
                     <Modal.Title>Connectez vous à votre compte Tam</Modal.Title>
